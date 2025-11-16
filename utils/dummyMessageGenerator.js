@@ -49,7 +49,7 @@ export async function generateDummyMessage() {
     message,
     category,
     priority,
-    source: platform, 
+    source: platform,
   });
 
   console.log(`📩 Dummy ${platform.toUpperCase()} message generated.`);

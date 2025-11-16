@@ -1,4 +1,4 @@
-import Query from "../models/Query.js";;
+import Query from "../models/Query.js";
 
 export async function addReply(req, res) {
   try {
@@ -21,7 +21,7 @@ export async function addReply(req, res) {
 
     if (!q.firstResponseAt) {
       q.firstResponseAt = new Date();
-      q.status = "In Progress"; 
+      q.status = "In Progress";
     }
 
     q.history.push({

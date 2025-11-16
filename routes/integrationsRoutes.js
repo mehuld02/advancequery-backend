@@ -10,9 +10,9 @@ import {
 const router = express.Router();
 
 router.post("/whatsapp", whatsappWebhook);
-router.post("/meta", metaWebhook); 
+router.post("/meta", metaWebhook);
 router.post("/twitter", twitterWebhook);
 router.post("/email", emailWebhook);
-router.post("/chat", chatWebhook); 
+router.post("/chat", chatWebhook);
 
 export default router;
